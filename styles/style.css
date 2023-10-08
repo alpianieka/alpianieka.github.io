@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 :root {
-  --primaryTextColor: #232e35;
+  --primaryTextColor: #f5f1f3;
   /* Untuk title atau judul */
-  --secondaryTextColor: #656d72;
+  --secondaryTextColor: #f2f6f7;
   /* Untuk text biasa seperti paragraph contohnya */
 
-  --borderColor: #f1f1f1;
-  --lineColor: #d9d9d9;
+  --borderColor: #ee82ee;
+  --lineColor: #202020;
   /* untuk line di pre-title */
 
-  --primaryBackgroundColor: #e9e8e5;
-  --secondaryBackgroundColor: hsl(44, 42%, 58%);
-  --thirdBackgroundColor: #f5f3fe;
+  --primaryBackgroundColor: #483d8b;
+  --secondaryBackgroundColor: hsl(258, 28%, 23%);
+  --thirdBackgroundColor: #2e2d33;
 
-  --primaryIconColor: #8cb34f;
+  --primaryIconColor: #00bfff;
   --primaryIconColorHover: #9ec543;
 
   --sectionPadding: 6rem 0;
@@ -79,7 +79,7 @@ a {
 /* Buttons */
 .btn {
   padding: 1rem 1.5rem;
-  background: white;
+  background: rgba(125, 64, 153, 0.87);
   border: 1.5px solid var(--borderColor);
   cursor: pointer;
   transition: 0.2s ease-in-out;
@@ -164,7 +164,7 @@ nav ul li a {
 .burger div {
   width: 25px;
   height: 2px;
-  background-color: #000;
+  background-color: #fdfcfc;
   margin: 7px;
   transition: all 0.3s;
   z-index: 99;
@@ -198,7 +198,7 @@ nav ul li a {
 }
 
 .hero-right img {
-  width: 100%;
+  width: 75%;
 }
 
 .hero-right {
@@ -412,20 +412,20 @@ nav ul li a {
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: #9d9fa1;
+  color: #f2f4f7;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border: 1px solid #7d7d7d;
+  border: 1px solid #bd9ccf;
 }
 
 .btn-submit {
   width: 100%;
   padding: 0.75rem 1.3rem;
   background-color: var(--primaryIconColor);
-  color: #fff;
+  color: #c99494;
   border: none;
   border-radius: 3px;
   cursor: pointer;
@@ -478,9 +478,9 @@ footer {
 }
 
 .footer-icons svg {
-  fill: #3e3f40;
+  fill: #ecfd4f;
 }
 
 .footer-icons a:hover svg {
-  fill: #4b4545;
+  fill: #d0f3b0;
 }
